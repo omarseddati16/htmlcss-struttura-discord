@@ -85,8 +85,17 @@ header {
   width: 40%;
 }
 
-.col-60.bg-skyblue,
-.col-40.bg-pink {
+.col-60,
+.col-40 {
   height: 500px;
   border: 2px black dotted;
+}
+
+/* section grigia */
+
+.container-grigio {
+  background-color: gray;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
 }
