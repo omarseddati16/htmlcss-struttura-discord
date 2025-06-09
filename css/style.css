@@ -39,14 +39,15 @@ header {
   justify-content: space-between;
 }
 
-.allineare {
-  border: 3px black dotted;
-}
+.allineare {}
 
 /* main */
 
 
-.container-blù {
+
+/* section blu */
+
+.container-blu {
   background-color: #0f2192;
   padding: 60px 0;
   display: flex;
@@ -58,4 +59,34 @@ header {
   width: 800px;
   background-color: rgb(201, 123, 201);
   border: 3px black dotted;
+}
+
+/* section bianca */
+
+.container-bianco {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-skyblue {
+  background-color: skyblue;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-60.bg-skyblue,
+.col-40.bg-pink {
+  height: 500px;
+  border: 2px black dotted;
 }
