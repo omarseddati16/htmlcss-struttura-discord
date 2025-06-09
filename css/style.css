@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* header */
+
+header {
+  background-color: rgb(172, 230, 227);
+  height: 60px;
+  padding: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+
+.col-25 {
+  width: 25%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25.bg-orange,
+.col-50.bg-orange {
+  height: 30px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.allineare {
+  border: 3px black dotted;
+}
+
+/* main */
