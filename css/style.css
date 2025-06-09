@@ -40,7 +40,7 @@ header {
   padding: 10px;
   border: 3px black dotted;
   text-align: center;
-  justify-content: space-between;
+
 }
 
 
@@ -116,7 +116,7 @@ header {
 
 .container-nero {
   background-color: rgb(43, 41, 41);
-  padding: 60px 0;
+  padding-top: 20px;
 }
 
 .col-15 {
@@ -136,5 +136,37 @@ header {
   padding: 10px;
   border: 2px black dotted;
   text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  padding-top: 10px;
+}
+
+.quadrato-fondo {
+  height: 50px;
+  width: 1000px;
+  background-color: rgb(11, 235, 149);
+}
+
+.logo {
+  width: 40px;
+  height: 25px;
+  margin: 15px 10px 20px 0px;
+  border: black dotted;
+  text-align: center;
+}
+
+.bottone {
+  width: 60px;
+  height: 25px;
+  margin: 15px 0px 20px 0px;
+  border: black dotted;
+  text-align: center;
+}
+
+.spazio {
   justify-content: space-between;
 }
