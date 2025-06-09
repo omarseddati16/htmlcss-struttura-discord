@@ -113,3 +113,28 @@ header {
 }
 
 /* section nera */
+
+.container-nero {
+  background-color: rgb(43, 41, 41);
+  padding: 60px 0;
+}
+
+.col-15 {
+  width: 15%;
+}
+
+.bg-lightred {
+  background-color: rgb(156, 69, 69);
+}
+
+.bg-bluegreen {
+  background-color: #41ffff;
+}
+
+.col-40.bg-lightred,
+.col-15.bg-bluegreen {
+  padding: 10px;
+  border: 2px black dotted;
+  text-align: center;
+  justify-content: space-between;
+}
