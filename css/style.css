@@ -16,7 +16,6 @@ header {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
 }
 
 .bg-orange {
@@ -26,6 +25,7 @@ header {
 
 .col-25 {
   width: 25%;
+
 }
 
 .col-50 {
@@ -44,3 +44,18 @@ header {
 }
 
 /* main */
+
+
+.container-blù {
+  background-color: #0f2192;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.quadrato-rosa {
+  height: 400px;
+  width: 800px;
+  background-color: rgb(201, 123, 201);
+  border: 3px black dotted;
+}
