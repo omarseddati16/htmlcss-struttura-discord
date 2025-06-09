@@ -13,10 +13,12 @@ header {
   padding: 10px;
 }
 
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
+
 }
 
 .bg-orange {
@@ -35,15 +37,21 @@ header {
 
 .col-25.bg-orange,
 .col-50.bg-orange {
-  height: 30px;
+  padding: 10px;
+  border: 3px black dotted;
   text-align: center;
   justify-content: space-between;
 }
 
-.allineare {}
 
 /* main */
 
+
+/* utili */
+
+.p-20 {
+  padding: 30px;
+}
 
 
 /* section blu */
@@ -64,11 +72,7 @@ header {
 
 /* section bianca */
 
-.container-bianco {
-  padding: 60px 0;
-  display: flex;
-  justify-content: center;
-}
+.container-bianco {}
 
 .bg-skyblue {
   background-color: skyblue;
@@ -96,16 +100,16 @@ header {
 /* section grigia */
 
 .container-grigio {
-  background-color: gray;
+  background-color: lightgray;
   padding: 60px 0;
-  display: flex;
-  justify-content: center;
+
 }
 
 .quadrato-verde {
   height: 800px;
-  width: 800px;
+  width: 1000px;
   background-color: rgb(9, 138, 15);
   border: 3px black dotted;
 }
-}
+
+/* section nera */
