@@ -9,8 +9,12 @@
 
 header {
   background-color: rgb(172, 230, 227);
-  height: 60px;
   padding: 10px;
+}
+
+ul {
+  justify-content: space-evenly;
+  display: flex;
 }
 
 
@@ -28,7 +32,6 @@ header {
 
 .col-25 {
   width: 25%;
-
 }
 
 .col-50 {
@@ -39,7 +42,7 @@ header {
 .col-50.bg-orange {
   padding: 10px;
   border: 3px black dotted;
-  text-align: center;
+
 
 }
 
@@ -53,12 +56,19 @@ header {
   padding: 30px;
 }
 
+.text-aling {
+  text-align: end;
+}
+
+.border-white {
+  border: 2px white dotted;
+}
+
 
 /* section blu */
 
 .container-blu {
   background-color: #0f2192;
-  padding: 60px 0;
   display: flex;
   justify-content: center;
 }
@@ -72,7 +82,6 @@ header {
 
 /* section bianca */
 
-.container-bianco {}
 
 .bg-skyblue {
   background-color: skyblue;
@@ -131,11 +140,14 @@ header {
   background-color: #41ffff;
 }
 
-.col-40.bg-lightred,
-.col-15.bg-bluegreen {
+.col-40.bg-lightred {
   padding: 10px;
   border: 2px black dotted;
   text-align: center;
+}
+
+.col-15.bg-bluegreen {
+  border: 2px white dotted;
 }
 
 /* footer */
